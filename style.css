@@ -1,14 +1,66 @@
 body {
-    background-color: darkgray;
+    background-color: rgb(104,143,255);
+    margin: 0 auto;
 }
 
 img {
 border-radius: 10px;
-width:400px;
-height:170px;
 }
 
 h1 {
 border-radius: 10px;
 }
+
+img {
+    width: 400px;
+    height: 170px;
+}
+
+h2 {
+border-radius: 10px;
+}
+
+.divisor01,
+.divisor02,
+.divisor03 {
+    width: 25%;
+}
+
+.divisor01,
+.divisor02,
+.divisor03 {
     
+    float: left;
+}
+
+.divisor01,
+.divisor02 {
+    margin-right: 5%;
+}
+
+.divisor01 {
+    margin-left: 5%;
+}
+
+.divisor03 {
+    margin-right: 7.5%;
+}
+
+#lineone,
+#linetwo {
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+#linetwo img {
+    height: 9%;
+}
+
+#lineone h2,
+#linetwo h2,
+#linethree {
+    font-style: italic;
+}
